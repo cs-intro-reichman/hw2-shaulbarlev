@@ -8,10 +8,10 @@ public class CalcPi {
 		for (int i = 0; i < n; i++) {
 			// System.out.println(k);
 			if (i % 2 == 0) {
-				sum += (double) 1/k;
+				sum -= (double) 1/k;
 			}
 			else {
-				sum -= (double) 1/k;
+				sum += (double) 1/k;
 			}
 
 			k+=2;
