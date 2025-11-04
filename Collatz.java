@@ -9,7 +9,7 @@ public class Collatz {
 			int steps = 1;
 			while (k > 1 || steps < 2) { // exploring k until converge to 1
 				if (flag.equals("v")) System.out.print(k);
-				if (k>1) System.out.print(" ");
+				if (k>=1) System.out.print(" ");
 
 				if ( k % 2 == 0) {
 					k /= 2;
